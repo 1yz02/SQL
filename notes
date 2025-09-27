@@ -29,6 +29,13 @@ Some of The Most Important SQL Commands
     CREATE INDEX - creates an index (search key)
     DROP INDEX - deletes an index
 
+To create databases:
+Create Database 1yz02 Without Check >>> CREATE DATABASE 1yz02;
+Create Database 1yz02 If Its Not Exists >>> CREATE DATABASE IF NOT EXISTS 1yz02;
+Delete Database 1yz02 Without Check >>> DROP DATABASE 1yz02;
+Delete Database osama If Its Exists >>> DROP DATABASE IF EXISTS 1yz02;
+
+
 The MySQL SELECT Statement
 The SELECT statement is used to select data from a database.
 **SELECT Syntax**
